@@ -114,7 +114,7 @@ function App() {
               {/* Placeholder for the alert */}
               <div className="alert-placeholder">
                 ‎
-                {showMessage && <div className="alert">Copied text!</div>}
+                {showMessage && <div className="alert">Copied table to clipboard!</div>}
               </div>
               <div className="table-container">
                 <table ref={tableRef} style={{ borderCollapse: "collapse", width: "100%" }}>
